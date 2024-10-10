@@ -14,7 +14,7 @@ Step 2:
 
 Use chmod to make each file executable by root. (ex: sudo chmod 700 HavocClientBoot.sh HavocSetup1.sh HavocSetup2.sh HavocSetup3.sh HavocBoot.sh)
 
-Put HavocSetup1.sh, HavocSetup2.sh and HavocSetup3.sh in the directory you want the Havoc folder to be installed into.
+Put all the files in the directory you want the Havoc folder to be installed into.
 
 Step 3: 
 
@@ -42,4 +42,36 @@ Step 6:
 
 Navigate to the Havoc folder and run HavocSetup3.sh as root.
 
-WIP/TBD
+bash ../HavocSetup3.sh
+
+ifconfig will be run and will show your network devices. Follow the instructions and note down the IPv4 address for eth0.
+
+Then, when the nano window appears, substitute your IP Address for the 0.0.0.0 in the "Host = " part of the file. Then save the file.
+
+Step 7: 
+
+Move the remaining two files (HavocBoot.sh and HavocClientBoot.sh) into the Havoc directory for future use. (either drag and drop or use mv)
+
+Step 8 (and how to run Havoc now):
+
+Make the Havoc folder the current directory.
+
+As root, run HavocBoot.sh to start the server.
+
+bash HavocBoot.sh
+
+In another terminal, as root, in the Havoc directory, run HavocClientBoot.sh to start the client.
+
+bash HavocClientBoot.sh
+
+These are the default settings:
+
+Name: Neo (or anything really)
+
+Host: IP Address from before
+
+Port: 40056
+
+User: neo
+
+Password: password1234
