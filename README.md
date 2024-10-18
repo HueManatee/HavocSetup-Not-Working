@@ -1,8 +1,13 @@
 # HavocSetup
 Shell Scripts for easy setup of Havoc
 
+Currently only install for Kali is being worked on.
 
-After setting up Havoc in ...WIP
+Upon testing, files need to be worked on further. If you want to try and edit them they are available here.
+
+
+
+Here are the instructions:
 
 
 
