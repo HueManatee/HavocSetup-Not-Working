@@ -3,13 +3,14 @@ Shell Scripts for easy setup of Havoc
 
 Currently only install for Kali is being worked on.
 
+# Note
+
 Upon testing, files need to be worked on further. If you want to try and edit them they are available here.
 
+Basically, it probably won't work so don't get your hopes up :(
 
 
-Here are the instructions:
-
-
+# Instructions for Download and Use:
 
 Step 1:
 
@@ -88,3 +89,7 @@ Port: 40056
 User: neo
 
 Password: password1234
+
+Step 9:
+
+Have fun!
